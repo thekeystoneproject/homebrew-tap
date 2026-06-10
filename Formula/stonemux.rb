@@ -7,7 +7,7 @@ class Stonemux < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://keystoneproject.dev/releases/stonemux/darwin-aarch64/stonemux-v1.1.0-darwin-aarch64.tar.gz"
-      sha256 "9821edc4184bda24c612e00ed2b934a6860c188c1c491268a2b9256fb0c03e7d"
+      sha256 "3ef47d7c285c2170192a2dffde6448484d7c9d154744492ded6c1dc03e146ac8"
     else
       url "https://keystoneproject.dev/releases/stonemux/darwin-x86_64/stonemux-v1.1.0-darwin-x86_64.tar.gz"
       sha256 "9f0fb60b3a746812e6f44a139fe9578e55c1823c828d67367ae012ef6d684916"
