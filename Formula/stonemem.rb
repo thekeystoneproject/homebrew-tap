@@ -7,10 +7,10 @@ class Stonemem < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://keystoneproject.dev/releases/stonemem/darwin-aarch64/stonemem-v1.0.0-darwin-aarch64.tar.gz"
-      sha256 "03fcb621bf68f35bbb527d5bb8828b1ef4e8ba96cf738c867e05d9be2e5574aa"
+      sha256 "893422fe29eaad1cf66ab91666360e3164ff84c382fea6201db98b04a2bfb4ba"
     else
       url "https://keystoneproject.dev/releases/stonemem/darwin-x86_64/stonemem-v1.0.0-darwin-x86_64.tar.gz"
-      sha256 "075bdfe933a4f5289e0ed4b1688cab0d85ed99eb205669b31d3282edab0ef517"
+      sha256 "d3271af891a468d693ac096252934fc85fe25e5c252a74e4e7b17dc0fec902d4"
     end
   end
 

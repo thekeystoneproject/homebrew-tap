@@ -7,10 +7,10 @@ class Stonegate < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://keystoneproject.dev/releases/stonegate/darwin-aarch64/stonegate-v1.0.0-darwin-aarch64.tar.gz"
-      sha256 "80874a4b6ee80b6bb2c7f1818dfea64f23fdc082cb3c9fdbaf8d0e519408e9e2"
+      sha256 "cfc4f6720c3fcd824def28ecc392920f817a0ebd92a033dc47bf22f2581db1f9"
     else
       url "https://keystoneproject.dev/releases/stonegate/darwin-x86_64/stonegate-v1.0.0-darwin-x86_64.tar.gz"
-      sha256 "32c670071b69293f1c8bb0a0fce49afa78c8b06a55868ea1429b7714ddeccd7e"
+      sha256 "dba4ae9f6bd2fe8849a87eaaf1bb7b0130f6c7c804e2eb4f2573cc5334932ae5"
     end
   end
 
