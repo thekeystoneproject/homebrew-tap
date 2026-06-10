@@ -1,16 +1,16 @@
 class Stonemux < Formula
   desc "Agent coordination MCP server — inboxes, task routing, shared state, broadcast, SSE events"
   homepage "https://keystoneproject.dev"
-  version "1.0.0"
+  version "1.1.0"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://keystoneproject.dev/releases/stonemux/darwin-aarch64/stonemux-v1.0.0-darwin-aarch64.tar.gz"
-      sha256 "2b0e33a9d8b90c498afd53f78c05d1bacf06e2ff8e58489ace6fcfd48861931c"
+      url "https://keystoneproject.dev/releases/stonemux/darwin-aarch64/stonemux-v1.1.0-darwin-aarch64.tar.gz"
+      sha256 "9821edc4184bda24c612e00ed2b934a6860c188c1c491268a2b9256fb0c03e7d"
     else
-      url "https://keystoneproject.dev/releases/stonemux/darwin-x86_64/stonemux-v1.0.0-darwin-x86_64.tar.gz"
-      sha256 "106d0a5cd3c1ab94a3d448a80b650ab2b42b85aa110b1ab4a32c18b88c4c04e8"
+      url "https://keystoneproject.dev/releases/stonemux/darwin-x86_64/stonemux-v1.1.0-darwin-x86_64.tar.gz"
+      sha256 "9f0fb60b3a746812e6f44a139fe9578e55c1823c828d67367ae012ef6d684916"
     end
   end
 
